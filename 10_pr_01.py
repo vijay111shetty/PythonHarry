@@ -10,7 +10,7 @@ class C3dVec(C2dVec):
     def __init__(self, i, j, k):
         super().__init__(i, j)
         self.kcap = k
-    
+        print("Just for GIT purpose")
     def __str__(self):
         return f"{self.icap}i + {self.jcap}j + {self.kcap}k"
     
